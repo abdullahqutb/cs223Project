@@ -1,0 +1,592 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sun Dec 23 17:18:06 2018
+# Process ID: 6564
+# Log file: D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.runs/impl_1/timer.vdi
+# Journal file: D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source timer.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc]
+WARNING: [Vivado 12-584] No ports matched 'reset_out'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset_out'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OE'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'OE'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SH_CP'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SH_CP'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ST_CP'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ST_CP'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DS'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DS'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[0]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[0]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[1]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[1]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[2]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[2]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[3]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[3]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[4]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[4]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[5]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[5]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[6]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[6]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[7]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'col_select[7]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_reset'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_reset'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[0]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[0]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[1]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[1]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[2]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[2]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[3]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_row[3]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[0]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[0]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[1]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[1]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[2]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[2]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[3]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'keyb_col[3]'. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.srcs/constrs_1/new/const.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2016.12' and will expire in -722 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 453.160 ; gain = 3.758
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 20ea5605a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 927.102 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 2 Constant Propagation | Checksum: 20ea5605a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 927.102 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 32 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 16ab22a75
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 927.102 ; gain = 0.000
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 927.102 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 16ab22a75
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 927.102 ; gain = 0.000
+Implement Debug Cores | Checksum: 26c2ce30a
+Logic Optimization | Checksum: 26c2ce30a
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.13 ns.
+Ending Power Optimization Task | Checksum: 16ab22a75
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 927.102 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+21 Infos, 44 Warnings, 44 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 927.102 ; gain = 477.699
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 927.102 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.runs/impl_1/timer_drc_opted.rpt.
+INFO: [#UNDEF] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2016.12' and will expire in -722 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 11f8972e6
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 927.102 ; gain = 0.000
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 927.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 927.102 ; gain = 0.000
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: cf139e3e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 927.102 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.2 IO & Clk Clean Up
+Phase 2.1.2 IO & Clk Clean Up | Checksum: cf139e3e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.481 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 2.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.3 Implementation Feasibility check On IDelay | Checksum: cf139e3e
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.482 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 2.1.4 Commit IO Placement
+Phase 2.1.4 Commit IO Placement | Checksum: a8b803b8
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.483 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1088b3dfd
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.483 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 2.2 Build Placer Netlist Model
+
+Phase 2.2.1 Place Init Design
+
+Phase 2.2.1.1 Init Lut Pin Assignment
+Phase 2.2.1.1 Init Lut Pin Assignment | Checksum: 195d25675
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.496 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 2.2.1 Place Init Design | Checksum: 1109f6b74
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.530 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 2.2 Build Placer Netlist Model | Checksum: 1109f6b74
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.530 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 2.3 Constrain Clocks/Macros
+
+Phase 2.3.1 Constrain Global/Regional Clocks
+Phase 2.3.1 Constrain Global/Regional Clocks | Checksum: 1109f6b74
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.531 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 2.3 Constrain Clocks/Macros | Checksum: 1109f6b74
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.532 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 2 Placer Initialization | Checksum: 1109f6b74
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.532 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 1d33ce929
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.630 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 1d33ce929
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.631 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 174073ca1
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.655 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 19809d40a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.659 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.4 updateClock Trees: DP
+Phase 4.4 updateClock Trees: DP | Checksum: 19809d40a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.659 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.5 Timing Path Optimizer
+Phase 4.5 Timing Path Optimizer | Checksum: 158d9cfdd
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.664 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.6 Small Shape Detail Placement
+
+Phase 4.6.1 Commit Small Macros & Core Logic
+
+Phase 4.6.1.1 setBudgets
+Phase 4.6.1.1 setBudgets | Checksum: 13cd34621
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.666 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.6.1.2 Commit Slice Clusters
+Phase 4.6.1.2 Commit Slice Clusters | Checksum: 15f27302a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.713 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 4.6.1 Commit Small Macros & Core Logic | Checksum: 15f27302a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.713 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns | Checksum: 15f27302a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.718 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: 15f27302a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.719 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 4.6 Small Shape Detail Placement | Checksum: 15f27302a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.721 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 4.7 Re-assign LUT pins
+Phase 4.7 Re-assign LUT pins | Checksum: 15f27302a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.724 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 4 Detail Placement | Checksum: 15f27302a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.724 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 14b6a7630
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.726 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 5.2 Post Commit Optimization
+
+Phase 5.2.1 updateClock Trees: PCOPT
+Phase 5.2.1 updateClock Trees: PCOPT | Checksum: 14b6a7630
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.727 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 5.2.2 Post Placement Optimization
+
+Phase 5.2.2.1 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=5.706. For the most accurate timing information please run report_timing.
+Phase 5.2.2.1 Post Placement Timing Optimization | Checksum: d44601ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.747 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 5.2.2 Post Placement Optimization | Checksum: d44601ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.747 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 5.2 Post Commit Optimization | Checksum: d44601ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.748 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 5.3 Sweep Clock Roots: Post-Placement
+Phase 5.3 Sweep Clock Roots: Post-Placement | Checksum: d44601ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.748 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 5.4 Post Placement Cleanup
+Phase 5.4 Post Placement Cleanup | Checksum: d44601ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.748 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 5.5 Placer Reporting
+
+Phase 5.5.1 Restore STA
+Phase 5.5.1 Restore STA | Checksum: d44601ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.749 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 5.5 Placer Reporting | Checksum: d44601ce
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.749 . Memory (MB): peak = 950.859 ; gain = 23.758
+
+Phase 5.6 Final Placement Cleanup
+Phase 5.6 Final Placement Cleanup | Checksum: e1c20bdb
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.750 . Memory (MB): peak = 950.859 ; gain = 23.758
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: e1c20bdb
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.750 . Memory (MB): peak = 950.859 ; gain = 23.758
+Ending Placer Task | Checksum: b9d916ad
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.753 . Memory (MB): peak = 950.859 ; gain = 23.758
+INFO: [Common 17-83] Releasing license: Implementation
+36 Infos, 44 Warnings, 44 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 950.859 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 950.859 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 950.859 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 950.859 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-1223] The version limit for your license is '2016.12' and will expire in -722 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 700a84aa
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1014.270 ; gain = 63.410
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 700a84aa
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1017.207 ; gain = 66.348
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 700a84aa
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1024.023 ; gain = 73.164
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 1f4956014
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.700  | TNS=0.000  | WHS=-0.116 | THS=-0.181 |
+
+Phase 2 Router Initialization | Checksum: 205df946d
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 159b15751
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1322154f8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.179  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1322154f8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+Phase 4 Rip-up And Reroute | Checksum: 1322154f8
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1942a9fd6
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.272  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 1942a9fd6
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1942a9fd6
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+Phase 5 Delay and Skew Optimization | Checksum: 1942a9fd6
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 17d7c0021
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.272  | TNS=0.000  | WHS=0.145  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 17d7c0021
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0180977 %
+  Global Horizontal Routing Utilization  = 0.0256377 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 17d7c0021
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1027.223 ; gain = 76.363
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 17d7c0021
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1029.082 ; gain = 78.223
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1f174c5bd
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1029.082 ; gain = 78.223
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.272  | TNS=0.000  | WHS=0.145  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1f174c5bd
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1029.082 ; gain = 78.223
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:17 . Memory (MB): peak = 1029.082 ; gain = 78.223
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+50 Infos, 44 Warnings, 44 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 1029.082 ; gain = 78.223
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1029.082 ; gain = 0.000
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Users/TEMP.PCLABS.000/Downloads/NEW/NEW.runs/impl_1/timer_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 23 17:18:41 2018...
