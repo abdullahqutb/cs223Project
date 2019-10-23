@@ -1,3 +1,3 @@
-This is the project for cs223 course
+Bilkent University - CS223 (Digital Design) - Fall 2018
 
-I added this line new. so bye then
+CS223, Digital Design, Lab project.
